@@ -1,0 +1,11 @@
+body{
+	background-color: darkgray;
+}
+
+table{
+  border: 3px solid;
+}
+
+tr {
+	font-size: 32px;
+}

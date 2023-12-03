@@ -3,9 +3,19 @@ body{
 }
 
 table{
-  border: 3px solid;
+  	border: 3px solid;
 }
 
-tr {
+tr{
 	font-size: 32px;
+	text-align: center;
+}
+
+th{
+	text-align: center;
+}
+
+td {
+	border-left: 3px solid;
+	border-top: 3px solid;
 }

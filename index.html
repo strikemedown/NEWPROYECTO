@@ -7,47 +7,137 @@
 	</head>
 	<body>
 		<h1>Hillcrest Highschool</h1>
+		<table id="main">
+			<tr>
+				<th>Student Lookup</th>
+			</tr>
+				<tr>
+					<td>
+						<label for = "NOMBRE">First name:</label>
+						<input type = "text" id = "NOMBRE"><br>
+						<label for = "SEGUNDONOMBRE">Middle initial:</label>
+						<input type = "text" id = "SEGUNDONOMBRE" maxlength="1" size="1"><br>
+						<label for = "APELLIDO">Last name:</label>
+						<input type = "text" id = "APELLIDO"><br>
+						<label for = "NUMERODEOSIS">OSIS number:</label>
+						<input type = "number" id = "NUMERODEOSIS"><br>
+						<label for = "PEQUENACOMUNIDADDEAPRENDIZAJE">SLC:</label>
+						<input type = "text" id = "PEQUENACOMUNIDADDEAPRENDIZAJE"><br>					
+						<label for = "NIVELDEGRADO">Grade level:</label>
+						<input type = "number" id = "NIVELDEGRADO"><br>			
+						<label for = "DIRECCIONDECORREOELECTRONICO">Email address:</label>
+						<input type = "text" id = "DIRECCIONDECORREOELECTRONICO">
+					</td>
+					<td>
+					<table id="courses">
+						<tr>
+							<th>Courses</th>
+						</tr>
+						<tr>
+							<td>
+								<label for = "CURSO1">First course:</label>
+								<input type = "text" id = "CURSO1">
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<label for = "CURSO2">Second course:</label>
+								<input type = "text" id = "CURSO2">
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<label for = "CURSO3">Third course:</label>
+								<input type = "text" id = "CURSO3">
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<label for = "CURSO4">Foruth course:</label>
+								<input type = "text" id = "CURSO4">
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<label for = "CURSO5">Fifth course:</label>
+								<input type = "text" id = "CURSO5">
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<label for = "CURSO6">Sixth course:</label>
+								<input type = "text" id = "CURSO6">
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<label for = "CURSO7">Seventh course:</label>
+								<input type = "text" id = "CURSO7">
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<label for = "CURSO8">Eighth course:</label>
+								<input type = "text" id = "CURSO8">
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+			<td id="none">
+				<table id="conf">
+					<button type = "button" id = "ENTREGAR">Submit</button>
+				</table>
+			<td id="none">
+				<table id="conf">
+					<button type = "button" id = "ENTREGAR2">Submit</button>
+				</table>
+			</td>
+		</table>
+		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 		<table>
 			<tr>
-				<th>Student Signup</th>
+				<th>Report Card</th>
 			</tr>
 			<tr>
-				<td>
-					<label for = "NOMBRE">Enter your first name: </label>
-					<input type = "text" id = "NOMBRE"><br>
-				</td>
-				<td>
-					<label for = "SEGUNDONOMBRE">Enter your middle initial: </label>
-					<input type = "text" id = "SEGUNDONOMBRE"><br>
-				</td>
-				<td>
-					<label for = "APELLIDO">Enter your last name: </label>
-					<input type = "text" id = "APELLIDO"><br>
-				</td>
-				<td>
-					<label for = "PEQUENACOMUNIDADDEAPRENDIZAJE">Enter your SLC: </label>
-					<input type = "text" id = "PEQUENACOMUNIDADDEAPRENDIZAJE" ><br>
-				</td>
-				<td>
-					<label for = "NIVELDEGRADO">Enter your grade level: </label>
-					<input type = "text" id = "NIVELDEGRADO" ><br>
-				</td>
-				<td>
-					<label for = "DIRECCIONDECORREOELECTRONICO">Enter your email address: </label>
-					<input type = "text" id = "DIRECCIONDECORREOELECTRONICO" >
-				</td>
+				<td>OSIS number:</td><td id="NUMERODEOSIS1"></td>
+				<td>Name:</td></td> <td id="NOMBRE1"></td> <td id="SEGUNDONOMBRE1"></td> <td id="APELLIDO1"></td>
+				<td>Grade:</td> <td id="NIVELDEGRADO1"></td> 
+				<td>SLC:</td> <td id="PEQUENACOMUNIDADDEAPRENDIZAJE1"></td> 
+				<td>Email:</td><td id="DIRECCIONDECORREOELECTRONICO1"></td> 
 			</tr>
 			<tr>
-				<td id="NOMBRE1"></td>
-				<td id="SEGUNDONOMBRE1"></td>
-				<td id="APELLIDO1"></td>
-				<td id="PEQUENACOMUNIDADDEAPRENDIZAJE1"></td>
-				<td id="NIVELDEGRADO1"></td>
-				<td id="DIRECCIONDECORREOELECTRONICO1"></td>
+				<td id="CURSO11"></td>
 			</tr>
-		</table><br>
-		<button type = "button" id = "ENTREGAR">Submit</button><br>
-		<br>
-		<label id="FINALIZAR"></label>
+			<tr>
+				<td id="CURSO22"></td>
+			</tr>
+			<tr>
+				<td id="CURSO33"></td>
+			</tr>
+			<tr>
+				<td id="CURSO44"></td>
+			</tr>
+			<tr>
+				<td id="CURSO55"></td>
+			</tr>
+			<tr>
+				<td id="CURSO66"></td>
+			</tr>
+			<tr>
+				<td id="CURSO77"></td>
+			</tr>
+			<tr>
+				<td id="CURSO88"></td>
+			</tr>
+		</table>
+		<label id="1st"></label>
+		<label id="2nd"></label>
+		<label id="3rd"></label>
+		<label id="4th"></label>
+		<label id="5th"></label>
+		<label id="6th"></label>
+		<label id="7th"></label>
+		<label id="8th"></label>
 	</body>
 </html>

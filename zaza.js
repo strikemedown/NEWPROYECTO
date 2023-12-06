@@ -130,3 +130,7 @@ function ENTREGAR2(){
 	document.getElementById("CURSO77").textContent= CURSO7;
 	document.getElementById("CURSO88").textContent= CURSO8;
 }
+
+
+
+

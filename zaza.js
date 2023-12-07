@@ -220,7 +220,7 @@ function SUBMIT(){
 	else if (parseInt(st)>=65){
 		var LETTER="D";
 	}
-	else if (parseInt(st)<=65){
+	else if (parseInt(st)<65){
 		var LETTER="F";
 	};
 	document.getElementById("lg1").textContent= LETTER;
@@ -258,7 +258,7 @@ function SUBMIT(){
 	else if (parseInt(nd)>=65){
 		var LETTER="D";
 	}
-	else if (parseInt(nd)<=65){
+	else if (parseInt(nd)<65){
 		var LETTER="F";
 	}
 	document.getElementById("lg2").textContent= LETTER
@@ -296,7 +296,7 @@ function SUBMIT(){
 	else if (parseInt(rd)>=65){
 		var LETTER="D"
 	}
-	else if (parseInt(rd)<=65){
+	else if (parseInt(rd)<65){
 		var LETTER="F"
 	}
 	document.getElementById("lg3").textContent= LETTER
@@ -334,7 +334,7 @@ function SUBMIT(){
 	else if (parseInt(th4)>=65){
 		var LETTER="D"
 	}
-	else if (parseInt(th4)<=65){
+	else if (parseInt(th4)<65){
 		var LETTER="F"
 	}
 	document.getElementById("lg4").textContent= LETTER
@@ -372,7 +372,7 @@ function SUBMIT(){
 	else if (parseInt(th5)>=65){
 		var LETTER="D"
 	}
-	else if (parseInt(th5)<=65){
+	else if (parseInt(th5)<65){
 		var LETTER="F"
 	}
 	document.getElementById("lg5").textContent= LETTER
@@ -410,7 +410,7 @@ function SUBMIT(){
 	else if (parseInt(th6)>=65){
 		var LETTER="D"
 	}
-	else if (parseInt(th6)<=65){
+	else if (parseInt(th6)<65){
 		var LETTER="F"
 	}
 	document.getElementById("lg6").textContent= LETTER
@@ -448,7 +448,7 @@ function SUBMIT(){
 	else if (parseInt(th7)>=65){
 		var LETTER="D"
 	}
-	else if (parseInt(th7)<=65){
+	else if (parseInt(th7)<65){
 		var LETTER="F"
 	}
 	document.getElementById("lg7").textContent= LETTER
@@ -486,7 +486,7 @@ function SUBMIT(){
 	else if (parseInt(th8)>=65){
 		var LETTER="D";
 	}
-	else if (parseInt(th8)<=65){
+	else if (parseInt(th8)<65){
 		var LETTER="F";
 	};
 	document.getElementById("lg8").textContent= LETTER;
